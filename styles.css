@@ -11,3 +11,42 @@ body{
     background-color: #fff;
     width: 414px;
 }
+header{
+    text-align: center;
+    padding-top: 180px;
+}
+svg, img{
+    margin: 0 auto;
+}
+aside{
+    background-color: #7abfbf;
+}
+main p, dd, dt, input, .ingredients li{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    margin: 0;
+    font-size: 40px;
+}
+header{
+    padding-top: 180px;
+    text-align: center;
+}
+main{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+main p{
+    padding: 0 10px;
+}
+main img{ 
+    width: 100%;
+}
+menu{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+}
