@@ -85,3 +85,62 @@ dd{
     margin-left: 5px;
     padding: 0px;
 }
+.Ingredients li{
+list-style:square;
+padding-bottom: 15px;
+font-family: 'Montserrat', sans-serif;
+}
+.directions{
+    padding-bottom: 0;
+    font-size: 16px;
+}
+.directions ol li{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    width: inherit;
+    position: absolute;
+    top: 0;
+    height: 175px;
+}
+nav h2{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+nav label{
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    padding: 10px 20px;
+    height: 60px;
+    background-color: #fff;
+}
+nav img{
+    visibility: hidden;
+    width: 0;
+}
+nav ul{
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+    transition: max-height .5s ease out;
+
+}
+nav input #menuButton{
+    display: none;
+}
+nav span a:hover, nav li:last-child a:hover{
+    border-radius: 3px;
+    color: #fff;
+    background-color: #eb5428;
+}
+nav span, nav li:last-child{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
