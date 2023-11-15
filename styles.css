@@ -418,3 +418,64 @@ footer h2, footer h3{
         margin-bottom: 10px;
     }
 }
+@media screen and (min-width: 1280px){
+    body{
+        width: 1280px;
+    }
+    h1{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    main{
+        display: block;
+    }
+    .begin{
+        display: flex;
+    }
+    menu{
+        display: block;
+        width: fit-content;
+        height: 648px;
+        background-color: #fff;
+        border: 2px solid #eb5428;
+    }
+    main img{
+        width: 40%;
+        margin-left: 125px;
+        margin-right: 0;
+        display: inline;
+    }
+    div.description{
+        width:850px;
+        margin: 0;
+        display: inline;
+    }
+    .description p{
+        margin-top: 5px;
+    }
+    .recipe{
+        grid-template-columns: .5fr 2fr;
+        grid-template-rows: .2fr 1fr;
+    }
+    .details{
+        color: #7abfbf;
+        background-color: #000000;
+    }
+    .List{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    .List dl{
+        margin: auto;
+    }
+    .List dt, .List dd{
+        display: block;
+        text-align: center;
+    }
+    .sides{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
