@@ -50,3 +50,38 @@ menu{
     margin: 0;
     padding: 10px;
 }
+.linkSvg li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.linkSvg li a{
+    text-decoration: none;
+    display: block;
+    color: #eb5428;
+    transition: color 1s, background-color 2s, border-radius 1s ;
+}
+.linkSvg li a:hover{
+    color: #000000;
+    background-color: #7abfbf;
+    border-radius: 5px;
+}
+h2{
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+}
+dt{
+    display: inline-block;
+    text-align: end;
+    font-weight: 650;
+}
+dd{
+    display: inline;
+    text-align: left;
+    margin-left: 5px;
+    padding: 0px;
+}
