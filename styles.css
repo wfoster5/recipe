@@ -21,7 +21,7 @@ svg, img{
 aside{
     background-color: #7abfbf;
 }
-main p, dd, dt, input, .ingredients li{
+main p, dd, dt, input, .Ingredients li{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -131,8 +131,9 @@ nav label{
     background-color: #fff;
 }
 nav img{
-    visibility: hidden;
-    width: 0;
+    display: flex;
+    flex-direction: row;
+    width: 25%;
 }
 nav ul{
     overflow: hidden;
@@ -153,11 +154,11 @@ nav span a:hover, nav li:last-child a:hover{
 }
 nav span, nav li:last-child{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
 }
 nav span a, nav li a{
-    color: #000000;
+    color:#eb5428;
     transition: color 1.5s, background-color 1s ease-in-out, border-radius 1s;
 }
 #menuButton ~ ul{
@@ -174,9 +175,10 @@ nav a{
 nav li{
     list-style: none;
     width: 100%;
-    background-color: #7abfbf;
+    
     text-align: center;
-    display: block;
+    display: flex;
+    flex-direction: row;
     padding: 10px 0;
     transition: background-color 1s ease-in-out;
 }
