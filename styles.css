@@ -328,4 +328,93 @@ footer h2, footer h3{
         text-align: center;
         margin-bottom: 10px;
     }
+    section.details{
+        height: fit-content;
+    }
+    .Ingredients{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .directions{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .sides{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    dl{
+        margin: 0;
+        padding-left: 10px;
+
+    }
+    #rice{
+        grid: 1/1;
+    }
+    #salsa{
+        grid:1/2;
+    }
+    #guacamole{
+        grid:2/1;
+    }
+    #tortilla{
+        grid:2/2;
+    }
+    aside figure{
+        grid-area: .25fr .5fr 50px;
+    }
+    nav{
+        background-color: #fff;
+    }
+    nav label{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    nav ul{
+        overflow: visible;
+        display: flex;
+        padding-top: 40px;
+    }
+    nav li{
+        padding: 0;
+    }
+    nav li:first-child{
+        left: 0;
+        width: 80px;
+        height: 80px;
+    }
+    nav li:last-child{
+        padding-top: 10px;
+    }
+    nav a:hover{
+        background-color: #7abfbf;
+        color: #fff;
+        border-radius: 3px;
+    }
+    nav img{
+        visibility: visible;
+        width: 40px;
+        display: block;
+    }
+    div.search{
+        top: 0;
+        right: 80px;
+        justify-content: end;
+        padding-right: 20px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    footer img{
+        padding-top: 20px;
+    }
+    footer ul{
+        width: 350px;
+    }
+    footer p{
+        margin-bottom: 10px;
+    }
 }
