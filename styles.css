@@ -20,7 +20,6 @@ svg, img{
 }
 aside{
     padding-bottom: 10px;
-    background-color: #7abfbf;
 }
 aside figure{
     display: grid;
@@ -29,14 +28,19 @@ aside figure{
     transition: background-color 1s linear, color .5s;
     margin: 10px;
 }
+aside figure:hover{
+    background-color: #000000;
+    color: #7abfbf;
+}
 aside h2{
     margin: 0;
     padding: 10px;
 }
-aside figure:hover{
+aside h3:hover, figcaption:hover, dt:hover{
     border: #000000;
-    color: #7abfbf;
+    color: #eb5428;
 }
+
 aside img{
     grid-row: span 3;
     width: 100%;
@@ -303,6 +307,7 @@ footer h2, footer h3{
     flex-direction: column-reverse;
 
 }
+
 @media screen and (min-width: 768px ){
     body{
         width: 768px;
@@ -340,7 +345,7 @@ footer h2, footer h3{
         grid-column: 2;
         grid-row: 2;
     }
-    .sides{
+    .side{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -418,6 +423,7 @@ footer h2, footer h3{
     footer p{
         margin-bottom: 10px;
     }
+    
 }
 @media screen and (min-width: 1280px){
     body{
