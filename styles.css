@@ -20,6 +20,7 @@ svg, img{
 }
 aside{
     padding-bottom: 10px;
+    background-color: #7abfbf;
 }
 aside figure{
     display: grid;
