@@ -192,7 +192,7 @@ nav ul{
     margin: 0;
     padding: 0;
     max-height: 0;
-    transition: max-height .5s ease out;
+    transition: max-height .5s ease-out;
 
 }
 nav input #menuButton{
@@ -209,13 +209,10 @@ nav span, nav li:last-child{
     text-align: center;
 }
 nav span a, nav li a{
-    color:#eb5428;
-    transition: color 1.5s, background-color 1s ease-in-out, border-radius 1s;
+    color:#000000;
+    transition:color 1.5s, background-color 1s ease-in-out, border-radius 1s;
 }
-#menuButton:checked ~ ul{
-    max-height: 600px;
-    z-index: 1;
-}
+
 nav li:hover{
     background-color: #fff;
 }
@@ -285,6 +282,7 @@ nav button{
 footer img{
     width: 50%;
     justify-content: center;
+    margin-left: 100px;
 
 }
 footer ul{
@@ -296,6 +294,7 @@ footer ul{
 footer section p{
     text-align: center;
     line-height: 1.5rem;
+    font-weight: bold;
 }
 footer h2, footer h3{
     visibility: hidden;
@@ -357,20 +356,18 @@ footer h2, footer h3{
 
     }
     #rice{
-        grid: 1/1;
+        grid: 1fr/1fr;
     }
     #salsa{
-        grid:1/2;
+        grid:1fr/2fr;
     }
     #guacamole{
-        grid:2/1;
+        grid:2fr/1fr;
     }
     #tortilla{
-        grid:2/2;
+        grid:2fr/2fr;
     }
-    aside figure{
-        grid-area: .25fr .5fr 50px;
-    }
+
     nav{
         background-color: #fff;
     }
