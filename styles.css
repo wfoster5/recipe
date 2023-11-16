@@ -126,7 +126,7 @@ h2{
 dt{
     display: inline-block;
     text-align: end;
-    font-weight: 650;
+    font-weight: 700;
 }
 dd{
     display: inline;
@@ -204,7 +204,7 @@ nav span, nav li:last-child{
     text-align: center;
 }
 nav span a, nav li a{
-    color:#000000;
+    color:#eb5428;
     transition: color 1.5s, background-color 1s ease-in-out, border-radius 1s;
 }
 #menuButton:checked ~ ul{
@@ -498,7 +498,7 @@ footer h2, footer h3{
     }
     figure img{
         order: 4;
-        width: 35px;
+        width: 200px;
     }
     nav{
         height: 80px;
